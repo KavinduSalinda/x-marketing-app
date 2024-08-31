@@ -1,0 +1,41 @@
+.card {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 500px;
+   padding: 1rem;
+   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.1);
+   cursor: pointer;
+   transition: transform 0.6s ease-out, box-shadow 0.3s ease; 
+ }
+ 
+ .card:hover {
+   transform: translateY( -10px); 
+   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+   background: rgba(255, 255, 255, 0.1) !important; 
+ }
+
+.card-description {
+  color: var(--text-color-secondary);
+  float: inline-end;
+  padding: 1rem;
+}
+
+.left-line {
+  border: 1px solid var(--text-color-secondary);
+  height: 5%;
+  place-self: center;
+}
+
+@media screen and (max-width: 768px) {
+   .card {
+     height: 450px;
+   }
+ }
+
+@media screen and (max-width: 768px) {
+  .card {
+    justify-content: space-around;
+    height: fit-content;
+  }
+}

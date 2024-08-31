@@ -1,0 +1,221 @@
+/* Home Section Styles */
+#home {
+    background-color: var(--primary-color);
+    padding-block-end: 100px;
+  }
+  
+  /* Button Styles */
+  .button {
+    border-radius: 64px;
+    padding: 16px 32px;
+    border: none;
+    cursor: pointer;
+    background: radial-gradient(circle, #ffb300 0%, var(--trinary-color) 100%);
+    text-decoration: none;
+    color: var(--text-color-primary);
+    transition: transform 0.6s ease, background 0.6s ease, box-shadow 0.6s ease; 
+  }
+  
+  .button:hover {
+    transform: translate3d(4px , -4px, 0); 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+    background: radial-gradient(circle, #ffbc1f 0%, #c65947 100%); 
+  }
+  
+  /* Size and Color Styles */
+  .sizes {
+    color: var(--text-color-primary);
+    padding: 0 8%;
+    display: flex;
+  }
+  
+  /* Main Page Styles */
+  main {
+    flex-direction: column;
+  }
+  
+  .main-tagline {
+    padding-block: 64px;
+    font-size: 4.5rem;
+    font-weight: 600;
+    font-family: var(--font-family-secondary);
+    line-height: 1;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .main-tagline > h1 {
+    font-weight: bolder;
+    display: inline-block;
+    background-image: url("data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%201900%20389%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20style%3D%22background-color%3Awhite%3B%22%3E%3Cpath%20fill%3D%22rgba(191%2C%20173%2C%20255%2C%201)%22%20d%3D%22M%200%20389%20L%20447%20-42%20L%20447%200%20L%200%200%20Z%22%20stroke-width%3D%220%22%3E%3C/path%3E%3Cpath%20fill%3D%22rgba(191%2C%20173%2C%20255%2C%201)%22%20d%3D%22M%20446%20-42%20L%201080%20-27%20L%201080%200%20L%20446%200%20Z%22%20stroke-width%3D%220%22%3E%3C/path%3E%3Cpath%20fill%3D%22rgba(191%2C%20173%2C%20255%2C%201)%22%20d%3D%22M%201079%20-27%20L%201110%20-27%20L%201110%200%20L%201079%200%20Z%22%20stroke-width%3D%220%22%3E%3C/path%3E%3Cpath%20fill%3D%22rgba(191%2C%20173%2C%20255%2C%201)%22%20d%3D%22M%201109%20-27%20L%201140%20-27%20L%201140%200%20L%201109%200%20Z%22%20stroke-width%3D%220%22%3E%3C/path%3E%3Cpath%20fill%3D%22rgba(191%2C%20173%2C%20255%2C%201)%22%20d%3D%22M%201139%20-27%20L%201170%20-27%20L%201170%200%20L%201139%200%20Z%22%20stroke-width%3D%220%22%3E%3C/path%3E%3Cpath%20fill%3D%22rgba(191%2C%20173%2C%20255%2C%201)%22%20d%3D%22M%201169%20-27%20L%201200%20-27%20L%201200%200%20L%201169%200%20Z%22%20stroke-width%3D%220%22%3E%3C/path%3E%3Cpath%20fill%3D%22rgba(191%2C%20173%2C%20255%2C%201)%22%20d%3D%22M%201199%20-27%20L%201230%20-27%20L%201230%200%20L%201199%200%20Z%22%20stroke-width%3D%220%22%3E%3C/path%3E%3Cpath%20fill%3D%22rgba(191%2C%20173%2C%20255%2C%201)%22%20d%3D%22M%201229%20-27%20L%201260%20-27%20L%201260%200%20L%201229%200%20Z%22%20stroke-width%3D%220%22%3E%3C/path%3E%3Cpath%20fill%3D%22rgba(191%2C%20173%2C%20255%2C%201)%22%20d%3D%22M%201259%20-27%20L%201290%20-27%20L%201290%200%20L%201259%200%20Z%22%20stroke-width%3D%220%22%3E%3C/path%3E%3Cpath%20fill%3D%22rgba(191%2C%20173%2C%20255%2C%201)%22%20d%3D%22M%201289%20-27%20L%201320%20-27%20L%201320%200%20L%201289%200%20Z%22%20stroke-width%3D%220%22%3E%3C/path%3E%3Cpath%20fill%3D%22rgba(191%2C%20173%2C%20255%2C%201)%22%20d%3D%22M%201319%20-27%20L%201350%20-27%20L%201350%200%20L%201319%200%20Z%22%20stroke-width%3D%220%22%3E%3C/path%3E%3Cpath%20fill%3D%22rgba(191%2C%20173%2C%20255%2C%201)%22%20d%3D%22M%201349%20-27%20L%201380%20-27%20L%201380%200%20L%201349%200%20Z%22%20stroke-width%3D%220%22%3E%3C/path%3E%3Cpath%20fill%3D%22rgba(191%2C%20173%2C%20255%2C%201)%22%20d%3D%22M%201379%20-27%20L%201410%20-27%20L%201410%200%20L%201379%200%20Z%22%20stroke-width%3D%220%22%3E%3C/path%3E%3Cpath%20fill%3D%22rgba(191%2C%20173%2C%20255%2C%201)%22%20d%3D%22M%201409%20-27%20L%201440%20-27%20L%201440%200%20L%201409%200%20Z%22%20stroke-width%3D%220%22%3E%3C/path%3E%3Cpath%20fill%3D%22rgba(191%2C%20173%2C%20255%2C%201)%22%20d%3D%22M%201439%20-27%20L%201900%20389%20L%201900%200%20L%201439%200%20Z%22%20stroke-width%3D%220%22%3E%3C/path%3E%3C/svg%3E");
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  
+  .main-flex-box {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .join-button-container {
+    display: inline-flex;
+    justify-content: left;
+    padding-block: 40px;
+    gap: 24px;
+  }
+  
+  .profile-container {
+    position: relative;
+  }
+  
+  .profile-container > img {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.6s ease;
+  }
+
+  .profile-container > img:hover {
+    transform: scale(1.1);
+    
+      /* border: 2px solid var(--text-color-secondary); */
+  }
+  
+  .happy-customer {
+    font-size: 2rem;
+  }
+  
+  .happy-customer-description {
+    font-size: 1.5rem;
+  }
+  
+  .main-image {
+    position: absolute;
+    right: 0;
+    bottom: -128px;
+  }
+  
+  .main-image > img {
+    width: 600px;
+    height: 600px;
+  }
+  
+  /* SVG Section Styles */
+  .svg-section {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  
+  .svg-section svg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  svg > circle {
+    fill: var(--primary-color);
+  }
+  
+  svg > image {
+    cursor: pointer;
+  }
+  
+  /* Title SVG Container Styles */
+  .title-svg-container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .title-svg-container > svg {
+    position: absolute;
+    top: -100px;
+  }
+  
+  .title-svg-container > svg > path {
+    fill: var(--text-color-secondary);
+  }
+  
+  /* About and Features Section Styles */
+  .about-features-section {
+    background: radial-gradient(circle at 95% 70%, #2c1b61 0%, var(--secondary-color) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 1440px) {
+    .sizes {
+      padding: 0 8%;
+    }
+  
+    .main-tagline {
+      font-size: 3rem;
+      padding-block: 40px;
+    }
+  
+    .main-image {
+      right: -50px;
+    }
+  
+    .main-image > img {
+      width: 500px;
+      height: 500px;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .sizes {
+      padding: 0 6%;
+    }
+  
+    .main-tagline {
+      font-size: 3.5rem;
+      padding-block: 40px;
+    }
+  
+    .main-flex-box {
+      display: block;
+    }
+  
+    .main-image {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .sizes {
+      padding: 0 5%;
+    }
+  
+    .main-tagline {
+      font-size: 3rem;
+      padding-block: 32px;
+    }
+  
+    .about-us-image {
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .sizes {
+      padding: 0 8%;
+    }
+  
+    .main-tagline {
+      font-size: 2rem;
+      padding-block: 24px;
+    }
+  }
