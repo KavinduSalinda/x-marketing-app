@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/KavinduSalinda/x-marketing-app/static/css/main.8b7a4190.css",
+    "main.js": "/KavinduSalinda/x-marketing-app/static/js/main.2a9a0776.js",
+    "static/js/453.dadb78b2.chunk.js": "/KavinduSalinda/x-marketing-app/static/js/453.dadb78b2.chunk.js",
+    "static/media/xmm-hero.png": "/KavinduSalinda/x-marketing-app/static/media/xmm-hero.edfe6a7bf8e90b7c9e86.png",
+    "static/media/xmm-img1.png": "/KavinduSalinda/x-marketing-app/static/media/xmm-img1.741b1d6cad762a5be28f.png",
+    "static/media/user2.jpg": "/KavinduSalinda/x-marketing-app/static/media/user2.0cc5ac181c560ab8dc2e.jpg",
+    "static/media/user3.jpg": "/KavinduSalinda/x-marketing-app/static/media/user3.3ab2a9be409d685331be.jpg",
+    "static/media/user1.jpg": "/KavinduSalinda/x-marketing-app/static/media/user1.5ef9d1774f36de229a95.jpg",
+    "static/media/xmm-icon2.png": "/KavinduSalinda/x-marketing-app/static/media/xmm-icon2.1fc383521b1d81ee2eae.png",
+    "index.html": "/KavinduSalinda/x-marketing-app/index.html",
+    "main.8b7a4190.css.map": "/KavinduSalinda/x-marketing-app/static/css/main.8b7a4190.css.map",
+    "main.2a9a0776.js.map": "/KavinduSalinda/x-marketing-app/static/js/main.2a9a0776.js.map",
+    "453.dadb78b2.chunk.js.map": "/KavinduSalinda/x-marketing-app/static/js/453.dadb78b2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8b7a4190.css",
+    "static/js/main.2a9a0776.js"
+  ]
+}
