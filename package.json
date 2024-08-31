@@ -2,7 +2,7 @@
   "name": "x-marketing-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/KavinduSalinda/x-marketing-app",
+  "homepage": "https://kavindusalinda.github.io/x-marketing-app/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
